@@ -137,7 +137,7 @@ module.exports = function (_ref, pluginOptions) {
               rawHTML = `
   <span
     class="gatsby-resp-image-wrapper"
-    style="position: relative; display: block; ${options.wrapperStyle}; max-width: ${presentationWidth}px; margin-left: auto; margin-right: auto;"
+    style="position: relative; display: block; max-width: ${presentationWidth}px; ${options.wrapperStyle}"
   >
     <span
       class="gatsby-resp-image-background-image"
